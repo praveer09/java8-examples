@@ -1,0 +1,16 @@
+group 'experiments'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.6.2'
+}
